@@ -59,15 +59,13 @@ with st.container():
     st.title("")
     col1, col2, col3 = st.columns(column_widths)   
     with col1:
-        st.write('<div class="BA"><img src="https://github.com/marceloyuba/StreamlitBA/blob/main/scr/Logo_Buenos_Aires.png?raw=true" /></div>', unsafe_allow_html=True)
+        st.image("scr/Logo_Buenos_Aires.png",width=1200, use_column_width=True, output_format='auto')
         
     with col2:
         st.text("")
           
     with col3: 
-        st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /></div>', unsafe_allow_html=True)
-
-
+        st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
 
 st.title("") 
 
