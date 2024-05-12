@@ -56,13 +56,13 @@ st.write("""
 """, unsafe_allow_html=True)
 column_widths = [1, 1, 2]
 with st.container():
-    st.title("")
+    
     col1, col2, col3 = st.columns(column_widths)   
     with col1:
         st.image("scr/Logo_Buenos_Aires.png",width=550, use_column_width=True, output_format='auto')
         
     with col2:
-        st.text("")
+        st.title("")
           
     with col3: 
         st.image("scr/SDTLogoC.png",width=1200, use_column_width=True, output_format='auto')
