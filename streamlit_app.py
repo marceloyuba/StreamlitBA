@@ -54,7 +54,7 @@ st.write("""
     }
 </style>
 """, unsafe_allow_html=True)
-column_widths = [2, 1, 2]
+column_widths = [1, 1, 2]
 with st.container():
     st.title("")
     col1, col2, col3 = st.columns(column_widths)   
