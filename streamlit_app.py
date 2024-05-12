@@ -70,7 +70,7 @@ with st.container():
     col1, col2 = st.columns(column_widths)
     
     with col1:
-        st.header("Accidentes Viales en la Ciudad de Buenos Aires")        
+        st.header("Informe estadistico de accidentes viales en la Ciudad de Buenos Aires")        
         st.markdown("""
                 #### El Observatorio de Movilidad y Seguridad Vial (OMSV), centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires, nos solicita la elaboración de un proyecto de análisis de datos, con el fin de generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales. Para ello, nos disponibiliza un dataset sobre homicidios en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. Este dataset se encuentra en formato xlsx y contiene : hechos y víctimas .
                 """) 
