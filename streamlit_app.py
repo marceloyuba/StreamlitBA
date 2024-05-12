@@ -17,43 +17,7 @@ with st.container():
     st.markdown('<style>h2 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>h1 {color: white;}, font=</style>', unsafe_allow_html=True)
     st.markdown('<style>write {color: white;}, font=</style>', unsafe_allow_html=True)
-st.write("""
-<style>
-    .fixed-container {
-        position: relative;
-        bottom: 30px;
-        padding: 10px;
-        left: 10%;
-        background-image:img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" ;
-        background-color: rgba(0, 0, 0, 0);
-        color: #ffffff;
-        
-        width: 1280px;
-        height: auto;
-        z-index: 9999;
-        
-    }
-    .fixed-container img {
-        width: 1100px; /* Ancho de la imagen */
-        height: auto; /* Autoajuste de la altura según el ancho */
-        margin: 0 auto; /* Centro horizontalmente */
-        display: block; /* Convertir la imagen en un bloque para aplicar márgenes automáticos */
-    }
-    .BA img {
-        width: 550px; /* Ancho de la imagen */
-        height: auto; /* Autoajuste de la altura según el ancho */
-        margin: 0 auto; /* Centro horizontalmente */
-        display: block; /* Convertir la imagen en un bloque para aplicar márgenes automáticos */
-    }
-    .fixed-container a {
-        font-size: 20px;
-        margin-top: 10px; /* Espacio después de la imagen */
-        text-decoration: none; /* Quitar el subrayado */
-        color: #ffffff; /* Cambiar el color del texto del enlace */
-        
-    }
-</style>
-""", unsafe_allow_html=True)
+
 column_widths = [1, 1, 2]
 with st.container():
     
@@ -69,18 +33,6 @@ with st.container():
 
 st.title("") 
 st.title("") 
-            
-st.write("""
-<style>
-    .botones a {
-        font-size: 30px;
-        margin-top: 10px; /* Espacio después de la imagen */
-        text-decoration: none; /* Quitar el subrayado */
-        color: #ffffff; /* Cambiar el color del texto del enlace */
-        
-    }
-</style>
-""", unsafe_allow_html=True)  
 
 column_widths = [2, 1]
 with st.container():
@@ -143,16 +95,11 @@ with st.container():
 
 
 
-
-
-
-
-
 page_bg_img = f"""
 <style>
 
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/fondoi.png?raw=true");
+background-image: url("https://github.com/marceloyuba/StreamlitBA/blob/main/scr/fondoba.png?raw=true");
 background-position: top left;
 background-repeat: no-repeat;
 background-attachment: fixed;
