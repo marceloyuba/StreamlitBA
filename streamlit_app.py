@@ -39,6 +39,12 @@ st.write("""
         margin: 0 auto; /* Centro horizontalmente */
         display: block; /* Convertir la imagen en un bloque para aplicar márgenes automáticos */
     }
+    .BA img {
+        width: 550px; /* Ancho de la imagen */
+        height: auto; /* Autoajuste de la altura según el ancho */
+        margin: 0 auto; /* Centro horizontalmente */
+        display: block; /* Convertir la imagen en un bloque para aplicar márgenes automáticos */
+    }
     .fixed-container a {
         font-size: 20px;
         margin-top: 10px; /* Espacio después de la imagen */
@@ -50,6 +56,8 @@ st.write("""
 """, unsafe_allow_html=True)
 
 st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /><br><img src="https://github.com/marceloyuba/StreamlitBA/blob/main/scr/Logo_Buenos_Aires.png?raw=true" /></div>', unsafe_allow_html=True)
+st.write('<div class="BA"><img src="https://github.com/marceloyuba/StreamlitBA/blob/main/scr/Logo_Buenos_Aires.png?raw=true" /></div>', unsafe_allow_html=True)
+
 st.title("") 
 
             
