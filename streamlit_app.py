@@ -54,8 +54,19 @@ st.write("""
     }
 </style>
 """, unsafe_allow_html=True)
+column_widths = [2, 1, 2]
+with st.container():
+    st.title("")
+    col1, col2, col3 = st.columns(column_widths)   
+    with col1:
+        st.write('<div class="BA"><img src="https://github.com/marceloyuba/StreamlitBA/blob/main/scr/Logo_Buenos_Aires.png?raw=true" /></div>', unsafe_allow_html=True)
+        
+    with col2:
+        st.text("")
+          
+    with col3: 
+        st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /></div>', unsafe_allow_html=True)
 
-st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /></div>','<div class="BA"><img src="https://github.com/marceloyuba/StreamlitBA/blob/main/scr/Logo_Buenos_Aires.png?raw=true" /></div>', unsafe_allow_html=True)
 
 
 st.title("") 
