@@ -174,19 +174,8 @@ def main():
         """,
         
         unsafe_allow_html=True
-    )
-    st.title("Calculador de vehiculos")
-    st.markdown(
-        """
-        <div style="display: flex; justify-content: center;">
-       <iframe title="DatasetMockup" width="1300" height="860" src="https://app.powerbi.com/view?r=eyJrIjoiMjM3OGExNjItNTBmZS00MDhmLThmYzYtNDFlMTYzNWZmYWEyIiwidCI6ImUyYjc5Nzc5LTBhODgtNDMzMS05YjQyLTM4NGNkNzFjODVkNyIsImMiOjR9" frameborder="10" allowFullScreen="true"></iframe>
-       </div>
-        """,
-        
-        unsafe_allow_html=True
-        
-        
-    )
+    )      
+    
         
 if __name__ == "__main__":
     main()
