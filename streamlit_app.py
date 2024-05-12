@@ -85,7 +85,7 @@ st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)
 
 def main():    
 
-    st.title("Dashboard de analisis de insercion de mercado")
+    st.title("Dashboard de analisis de accidentes viales")
     st.markdown(
         """
         <div style="display: flex; justify-content: center;">
