@@ -55,7 +55,7 @@ st.write("""
 </style>
 """, unsafe_allow_html=True)
 
-st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /></div>', unsafe_allow_html=True)
+st.write('<div class="fixed-container"><img src="https://github.com/marceloyuba/StreamlitSDT/blob/main/scr/SDTLogoC.png?raw=true" /></div>','<div class="BA"><img src="https://github.com/marceloyuba/StreamlitBA/blob/main/scr/Logo_Buenos_Aires.png?raw=true" /></div>', unsafe_allow_html=True)
 st.write('<div class="BA"><img src="https://github.com/marceloyuba/StreamlitBA/blob/main/scr/Logo_Buenos_Aires.png?raw=true" /></div>', unsafe_allow_html=True)
 
 st.title("") 
