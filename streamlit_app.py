@@ -3,7 +3,7 @@
 import streamlit as st
 from streamlit.hello.utils import show_code
 
-st.set_page_config(page_title="Strategic Data Transform", page_icon="scr/fondo.jpg", layout="wide")
+st.set_page_config(page_title="Accidentes - Strategic Data Transform", page_icon="scr/fondo.jpg", layout="wide")
            
 def local_css(file_name):
     with open(file_name) as f:
