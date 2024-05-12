@@ -119,44 +119,30 @@ if __name__ == "__main__":
 
 st.title("")
 
-st.title("Nuestro equipo de trabajo")
-
+st.write("<hr style='border-top: 1px solid grey;'>", unsafe_allow_html=True)    
 with st.container():
-     
-    col1, col2 = st.columns(column_widths)
     
-    
-    with col1:
-        st.header("Elizabeth Fraire")
-        st.markdown(""" 
-                #### Departamento: Data Science, Engineering, Analist
-                #### Background: Ciencias Biológicas
-                #### Linkedin: [Acceder a su perfil](https://www.linkedin.com/in/veronica-elizabeth-torres-fraire-a830bb234/)
-                #### Github: [Acceder a su perfil](https://github.com/Bethcosima)
-                """) 
-    
-    with col2:
-        imagen = "scr/Eli.jpg"  
-        st.image(imagen, width=250, use_column_width=False, output_format='auto')    
+    st.header("Contactanos!")
+    st.write("##")
 
-st.title("")
+    # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
+    contact_form = """
+    <form action="https://formsubmit.co/strategicdatatransform@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <textarea name="message" placeholder="Tu consulta" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    """
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.markdown(contact_form, unsafe_allow_html=True)
+    with right_column:
+        st.empty()
 
-with st.container():
-     
-    col1, col2 = st.columns(column_widths)
-    
-    
-    with col1:
-        st.header("Marcelo Yuba")
-        st.markdown(""" 
-                #### Departamento: Data Analist, Graphic Design
-                #### Background: Diseño multimedial, Publicidad grafica, E-Commerce
-                #### Linkedin: [Acceder a su perfil](www.linkedin.com/in/marcelo-yuba)
-                #### Github: [Acceder a su perfil](https://github.com/marceloyuba)
-                """) 
-    with col2:
-        imagen = "scr/fotoLI.jpg"  
-        st.image(imagen, width=250, use_column_width=False, output_format='auto')   
+
+
 
 
 
