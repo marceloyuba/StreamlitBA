@@ -85,7 +85,7 @@ with st.container():
 page_bg_img = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://github.com/marceloyuba/StreamlitBA/blob/main/scr/fondoba.png?raw=true");
+    background-image: url("https://raw.githubusercontent.com/marceloyuba/StreamlitBA/main/scr/fondoba.png");
     background-position: top left;
     background-repeat: no-repeat;
     background-attachment: fixed;
