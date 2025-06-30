@@ -12,7 +12,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 with st.container():
-    st.markdown('<style>h1, h2, h3, h4, p, div, span {color: white !important;}</style>', unsafe_allow_html=True)
+    st.markdown('<style>h1, h2, h3, h4, p, div, span {color: black !important;}</style>', unsafe_allow_html=True)
 
 column_widths = [1, 1, 2]
 with st.container():
